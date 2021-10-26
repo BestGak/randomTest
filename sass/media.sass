@@ -1,0 +1,368 @@
+@media screen and (max-width:1200px)
+  .question
+    &__form
+      flex-direction: column
+    &__column
+      max-width: 100%
+    &__input
+      width: 100%
+      margin-bottom: 15px
+    &__textarea
+      height: 61px
+      margin-bottom: 15px
+    &__privacy--remove
+      display: none
+    &__privacy--mobile
+      display: block
+      margin-bottom: 25px
+    &__btn
+      width: 100%
+  .question__column.error::after   
+    left: calc(100% - 40px)
+    top: 48% 
+@media screen and (max-width:1140px)
+  .blog
+    &__container
+      flex-direction: column
+      align-items: center
+    &__norgeMore--remove 
+      display: none
+    &__aside
+      max-width: 100%
+    &__casinosNorge 
+      margin-bottom: 50px
+    &__casinoNorge:last-of-type
+      border-bottom: 1px solid #D5E1EC
+    &__casinosImg
+      height: 38px
+    &__casino
+      margin-left: 0
+  
+@media screen and (max-width:1100px)
+  .container__pading 
+    padding: 0
+  .author
+    
+    &.author .container::after
+      display: none
+    &__container
+      flex-direction: column
+
+    &__direction
+      padding-bottom: 25px
+    &__description
+      max-width: 100%
+      margin-bottom: 19px 
+    &__socials
+      &--remove
+        display: none
+      &--mobile
+        display: block
+        margin: 0 auto
+    &__img
+      margin: 0 auto 70px
+      max-width: 500px
+      &::after
+        display: block
+        width: 432px
+        height: 300px        
+        left: 27%
+        top: 53%     
+    &__authorImg
+      max-width: 500px
+      max-height: 500px
+  .casino
+    &__description
+        padding-right: 20px
+  .about
+    &__container
+      display: flex
+      flex-direction: column
+    &__about
+      max-width: 100%
+      padding: 50px 0px
+      padding-left: 16px
+    &__indicator
+      max-width: 100%
+      display: flex
+    &__value
+      max-width: 50px
+      width: 100%
+      margin-left: 16px
+    &__experience
+      margin-left: 20px
+ 
+  .contact
+    &__container
+      flex-direction: column-reverse
+      justify-content: center
+      align-items: center
+    &__form 
+      margin: 0px 0px 50px 0px
+  
+        
+@media screen and (max-width:900px)
+  .contact
+   
+    &__imgs
+      display: flex
+      justify-content: space-between
+    &__img
+      margin: 0
+    &__formName
+      flex-direction: column
+    &__column
+      width: 100%
+    &__description--remove , &__title--remove
+      display: none
+    &__description--mobile , &__title--mobile
+      display: block
+      margin-right: auto
+@media screen and (max-width:767px)
+  .author
+    &__img::after
+      left: calc(100% - 370px)
+      top: calc(100% - 259px)
+      width: 380px
+    &__authorImg
+      width: 80%
+      height: calc(100% - 100px)
+      display: block
+      margin: 0 auto
+  .blog
+    &__casino
+      grid-template-columns: 10% 30% 48% 12%
+    &__btnBtn
+      min-width: 70px
+      font-size: 12px
+      line-height: 20px
+    &__mainImg
+      width: calc(100% + 32px)
+      margin-left: -16px
+    &__article
+      background: transparent
+      padding: 55px 30px 50px
+      margin-bottom: 0
+    &__article::before
+      right: 0
+      top: 47.5%
+      color: #1D2730
+    &__article::after
+      color: #1d2730
+      left: 0
+      top: 47.5%
+    &__mainTitle
+      font-size: 28px
+      line-height: 32px
+    
+    &__information
+      margin-bottom: 0px
+    &__title
+      font-size: 21px
+      line-height: 25px
+      margin-top: 50px
+    &__quote
+      margin-top: 25px
+      padding: 26px 27px 20px
+    &__description , & li , &__quoteDescription , &__information , &__gameDescription , &__casinoIdentify , &__bonusMoney
+      font-size: 14px
+      line-height: 20px
+    &__bonusSpin
+      font-size: 12px
+      line-height: 20px
+    &__ul--remove , &__nameArticle , &__aside--remove , &__casinoName , &__star--remove , &__casinoMark--remove , &__bonusMoney--remove
+      display: none
+    &__games
+      margin-top: 66px
+    &__ul
+      overflow-x: auto
+      &::-webkit-scrollbar 
+        width: 0
+    & li.blog__game 
+      font-size: 16px
+      line-height: 22px
+    &__locationArticle
+      color: #1D2730
+    &__casinoImg--mobile , &__bonusMoney--mobile
+      display: block
+    &__casinoCountry 
+      margin: 0 8px
+    &__aside--mobile
+      display: block
+      margin: 0 auto
+      max-width: 100%
+    &__casinoImg img 
+      width: 38px
+      height: 38px
+@media screen and (max-width:625px)
+  .eror 
+    &__container 
+      padding-bottom: 50px
+    &__title
+      font-size: 28px
+      line-height: 32px
+      margin: 50px 0px 12px 0px
+    &__description
+      font-size: 16px
+      line-height: 22px
+      padding: 0 16px
+      margin-bottom: 31px
+    &__img
+      padding: 0 37px
+    &__links
+      justify-content: space-between
+      padding: 0 40px
+      overflow-x: auto
+    &__link
+      margin-right: 27px
+      font-size: 14px
+      line-height: 20px 
+  .contact
+    padding-bottom: 60px
+    &__title
+      font-size: 28px
+      line-height: 32px
+      margin-bottom: 6px 
+    &__description
+      font-size: 14px
+      line-height: 20px
+      letter-spacing: -0.004em
+      margin-bottom: 30px
+    &__direction
+      padding: 22px 0px
+      font-size: 12px
+      line-height: 20px      
+    &__btn
+      margin-bottom: 30px
+    &__name
+      font-size: 12px
+      line-height: 20px  
+      font-family: 'Gilroy-Medium'
+      font-weight: 500
+      margin-bottom: 29px
+    &__form
+      padding: 30px 21px
+    &__input
+      margin-bottom: 15px
+    &__format
+      font-size: 14px
+      line-height: 20px
+    &__formatInfo
+      font-size: 12px   
+      margin-bottom: 25px
+    &__blockDescription
+      max-width: 250px
+      width: 100%
+      margin: 0
+  .author
+    &__social
+      padding: 21px 32px
+      width: 24%
+  .about
+    &__title
+      font-size: 21px
+      line-height: 25px
+    &__about
+      padding: 50px 16px
+    &__description
+      font-size: 14px
+      line-height: 20px
+  .casino 
+    padding-bottom: 50px
+    &__title
+      font-size: 22px
+      line-height: 25px
+    &__left
+      max-width: 100%
+      justify-content: flex-start
+      padding-left: 33px
+    &__number--mobile
+      display: flex
+    &__img--remove
+      display: none
+    &__block
+      flex-direction: column
+      margin-bottom: 20px
+    &__left::after
+      display: none
+    &__description
+      margin-top: 11px
+      padding: 0 33px
+      font-size: 14px
+      line-height: 20px
+    &__number
+      font-size: 28px
+      line-height: 32px
+      margin-top: 35px
+    &__information
+      display: none
+  .question
+    &__title
+      font-size: 21px
+      line-height: 25px
+    &__description
+      font-size: 14px
+      line-height: 20px
+    &__privacy--mobile , &__label
+      font-size: 12px
+      line-height: 20px
+    &__privacy--mobile
+      opacity: .5
+  .blog
+    &__direction
+      padding: 20px 0px 15px 0px
+    &__mainTitle
+      margin-bottom: 6px
+    &__post
+      margin-bottom: 14px
+    &__mainImg
+      margin-bottom: 25px
+    &__title
+      margin-bottom: 5px
+    &__quoteImg
+      width: 32px
+      height: 23px 
+    &__info
+      & ol
+        padding: 0px 16px
+        margin: 25px 0px
+  .author
+    padding-bottom: 60px
+    &__direction
+      padding: 20px 0px 25px 0px 
+    &__hello
+      margin-bottom: 12px
+    &__name
+      margin-bottom: 6px
+    &__img
+      padding-top: 0px
+  .about
+    padding-bottom: 0
+    &__indicators
+      margin-top: 50px   
+    &__title
+      margin-bottom: 10px
+    &__indicators .about__indicator:nth-last-child(1)::after
+      display: none
+  .casino 
+    &__title
+      margin-bottom: 25px
+  .question
+    &__label
+      margin-bottom: 5px
+@media screen and (max-width:550px)
+  .blog
+    &__casino
+      padding: 17px 0px
+      grid-template-columns: 15% 30% 35% 20%
+    &__gameArticle
+      font-size: 16px
+      line-height: 22px
+    &__casinoNorge 
+      grid-template-columns: 18% 51% 31%
+  .author
+    &__img::after
+      width: 260px
+      height: 180px
+      left: calc(100% - 270px)
+      top: calc(100% - 136px)

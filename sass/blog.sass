@@ -1,0 +1,321 @@
+@import ../sass/reset
+.blog
+  & a 
+    text-decoration: none
+    color: #1F4AD8
+  &__container 
+    display: flex
+    justify-content: space-between
+  &__info 
+    max-width: 700px
+    width: 100%
+  &__title
+    font-family: 'Gayathri-Bold'
+    font-weight: 700
+    color: #0b1324
+    font-size: 36px
+    line-height: 32px
+    letter-spacing: -0.02em
+    margin-bottom: 10px
+  &__mainTitle
+    font-family: 'Gayathri-Bold'
+    font-weight: 700
+    font-size: 44px
+    line-height: 44px
+    color: #0b1324
+    letter-spacing: -0.01em
+    max-width: 650px
+    margin-bottom: 13px
+  &__post 
+    display: flex
+    align-items: center
+    margin-bottom: 30px
+  &__postText
+    margin-left: 20px
+    font-size: 14px
+    line-height: 20px
+    letter-spacing: -0.04em
+    color: #70788a
+    font-family: 'Gilroy-Regular'
+    font-weight: 400
+  &__mainImg
+    margin-bottom: 50px
+    width: 100%
+  &__information
+    font-size: 18px
+    line-height: 30px
+    letter-spacing: -0.01em
+    color: #70788A
+    margin-bottom: 50px
+    font-family: 'Gilroy-Regular'
+    font-weight: 400
+  &__information--span 
+    font-weight: 600
+  &__quote
+    max-width: 675px
+    background: #f7fbfa
+    padding: 36px 99px 30px 43px
+    position: relative
+    margin-bottom: 46px
+  &__quoteDescription
+    font-family: 'Gilroy-Regular'
+    font-weight: 400
+    font-size: 18px
+    line-height: 26px
+    letter-spacing: -0.01em
+    color: #0b1324
+    margin-bottom: 22px
+  &__quoteImg  
+    position: absolute
+    right: 10%
+    bottom: 25%
+  &__name
+    color: #70788a
+  &__description 
+    font-family: 'Gilroy-Regular'
+    font-weight: 400
+    font-size: 18px
+    line-height: 26px
+    letter-spacing: -0.01em
+    color: #70788a
+  & ul 
+    padding: 0 0 0 15px
+    margin-bottom: 65px
+  & li
+    font-family: 'Gilroy-Regular'
+    font-weight: 400
+    font-size: 18px
+    line-height: 40px
+    letter-spacing: -0.01em
+    color: #70788a
+  &__casinoName
+    font-size: 12px
+    line-height: 14px
+    letter-spacing: 0.05em
+    color: #70788a
+    font-family: 'Gilroy-Medium'
+    font-weight: 500
+    margin: 25px 0px 12px 20px
+  &__casino
+    padding: 25px 0px
+    margin: 0 0px 0px 20px
+    display: grid
+    grid-template-columns: 15% 25% 40% 20%
+    align-items: center
+    border-bottom: 1px solid rgba(0,0,0,.05)
+    width: 100%
+  &__casinoMark
+    font-size: 14px
+    line-height: 20px
+    letter-spacing: -0.04em
+    color: #70788a
+    font-family: 'Gilroy-Medium'
+    font-weight: 500
+  &__casino--margin
+    margin-bottom: 50px
+  &__casinoDescription 
+    display: flex
+    flex-direction: column
+  &__casinoInfo
+    display: flex
+    align-items: center
+    margin-top: 6px
+  &__btn , &__norgeBtn
+    margin-left: auto
+  
+  &__btnBtn
+    background: #1f4ad8
+    min-width: 110px
+    height: 42px
+    font-size: 14px
+    line-height: 20px
+    letter-spacing: -0.04em
+    color: #fff
+    border-radius: 2px
+    border: none
+    cursor: pointer
+    &:hover
+      background: #1F50F1
+    &:active
+      background: #1C46CF
+  &__star 
+    margin: 0px 8px 0px 18px
+  &__casinoIdentify
+    font-family: 'Gilroy-Medium'
+    font-weight: 500
+    font-size: 20px
+    line-height: 25px
+    color: #0b1324
+    letter-spacing: -0.032em
+  &__bonusMoney
+    font-family: 'Gilroy-Medium'
+    font-weight: 500
+    font-size: 18px
+    line-height: 23px
+    letter-spacing: -0.07em
+    color: #0b1324
+  &__bonusSpin
+    font-family: 'Gilroy-Regular'
+    font-weight: 400
+    font-size: 14px
+    line-height: 20px
+    letter-spacing: -0.04em
+    color: #70788a
+    margin-bottom: 2px
+  &__games
+    border-bottom: 1px solid #D5E1EC
+    margin-bottom: 24px
+  & ul.blog__ul
+    display: flex
+    padding: 0
+    list-style: none
+    margin: 0
+  & li.blog__game
+    font-family: 'Gilroy-Medium'
+    font-weight: 500
+    font-size: 18px
+    line-height: 21px
+    color: #0b1324
+    padding: 0px 0px 26px 0px
+    margin-right: 54px
+    cursor: pointer
+  &__game--active
+    border-bottom: 1px solid #1F4AD8
+    border-radius: 2px 2px 0px 0px
+  &__gameDescription
+    font-family: 'Gilroy-Regular'
+    font-weight: 400
+    font-size: 18px
+    line-height: 26px
+    letter-spacing: -0.01em
+    color: #70788a
+    margin-bottom: 70px
+  &__article 
+    background: #f7f8fa
+    width: 100%
+    padding: 51px 131px
+    display: flex
+    justify-content: space-between
+    position: relative
+    margin-bottom: 100px
+    &::after
+      content: ''
+      background: url('../image/left-arrow.svg')
+      background-repeat: no-repeat
+      position: absolute
+      width: 7px
+      height: 11px
+      color: #70788A80
+      opacity: .5
+      left: 9%
+      top: 45%
+    &::before
+      content: ''
+      background: url('../image/right-arrow.svg')
+      background-repeat: no-repeat
+      position: absolute
+      width: 7px
+      height: 11px
+      color: #70788A80
+      opacity: .5
+      right: 9%
+      top: 45%
+  &__nextArticle
+    text-align: right
+  &__locationArticle
+    font-family: 'Gilroy-Medium'
+    font-weight: 500
+    font-size: 14px
+    line-height: 20px
+    letter-spacing: -0.04em
+    color: #70788a
+  &__nameArticle
+    font-family: 'Gilroy-Medium'
+    font-weight: 500
+    font-size: 21px
+    line-height: 25px
+    letter-spacing: -0.02em
+    color: #0B1324
+  &__aside
+    max-width: 380px
+    width: 100%
+  &__casinoNorge
+    border-bottom: 1px solid #E2E7ED
+    display: grid
+    grid-template-columns: 15% 54% 31%
+    padding: 17px 0px
+    margin: 0px 13px
+    &:last-of-type
+      border: none
+  &__norgeTitle
+    font-family: 'Gayathri-Bold'
+    font-weight: 700
+    font-size: 21px
+    line-height: 25px
+    color: #0b1324
+    letter-spacing: -0.02em
+    margin-bottom: 11px
+  &__norgeName
+    font-family: 'Gilroy-Medium'
+    font-weight: 500
+    font-size: 12px
+    line-height: 14px
+    color: #70788a
+    margin-bottom: 2px
+  &__norgeBonus
+    font-size: 14px
+    line-height: 16px
+    color: #010818
+    font-family: 'Gilroy-Medium'
+    font-weight: 500
+  &__norgeImg
+    width: 38px
+    height: 38px
+  &__norgeMore
+    padding: 12px, 61px, 12px, 61px
+    border: 1px solid #D5E1EC
+    border-radius: 2px
+    background: #fff
+    width: 100%
+    height: 46px
+    margin-top: 20px
+    margin-bottom: 50px
+    font-family: 'Gilroy-Medium'
+    font-weight: 500
+    font-size: 14px
+    line-height: 20px
+    letter-spacing: -0.04em
+    color: #1F4AD8
+    cursor: pointer
+    &:hover
+      border: 2px solid #D5E1EC
+    &:active
+      border: 2px solid #CAD8E4
+  &__norgeGame
+    padding: 20px 60px 20px 0px
+    display: flex
+    border-bottom: 1px solid #D5E1EC
+    &:last-of-type
+      border: none
+  &__norgeGameDescription 
+    padding-left: 19px
+  &__gameImg
+    width: 81px
+    height: 81px
+  &__gameArticle
+    font-family: 'Gilroy-Medium'
+    font-weight: 500
+    font-size: 18px
+    line-height: 26px
+    letter-spacing: -0.01em
+    color: #0b1324
+  &__gameDate
+    font-size: 12px
+    line-height: 20px
+    letter-spacing: -0.02em
+    font-family: 'Gilroy-Medium'
+    font-weight: 500
+    color: #70788a
+  &__aside--mobile , &__casinoImg--mobile , &__bonusMoney--mobile
+    display: none
+@import './media'
